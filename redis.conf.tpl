@@ -2,6 +2,8 @@ daemonize yes
 
 pidfile /var/run/redis.pid
 
+bind 0.0.0.0
+
 port 7000
 
 tcp-backlog 511
