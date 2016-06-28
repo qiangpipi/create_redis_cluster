@@ -14,7 +14,7 @@ tcp-keepalive 0
 
 loglevel notice
 
-logfile ""
+logfile "redis.log"
 
 databases 16
 
