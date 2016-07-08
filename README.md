@@ -1,5 +1,5 @@
 ###Precondition:###
-This script created base on eht redis server 3.0.5.
+This script created base on eht redis server 3.0.5 and can work with 3.2.0.  
 Go to [redis.io](http://redis.io/download) download a stable version
 Install the redis:
 ```
