@@ -2,7 +2,7 @@
 #Parse parameter
 #Print help if command wrong
 if [ ! $nodebase ];then
-  nodebase=`pwd`
+  nodebase=$(dirname $(pwd)/${0})
 fi
 if [ ! -f $nodebase/redis.conf.tpl ];then
   echo "Base folder not existing"

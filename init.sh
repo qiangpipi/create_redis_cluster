@@ -13,7 +13,8 @@ if [ $master -lt 1 ];then
   exit 1
 fi
 if [ ! $nodebase ];then
-  nodebase=`pwd`
+  nodebase=$(dirname $(pwd)/${0})
+  echo ${nodebase}
 fi
 if [ ! -f $nodebase/redis.conf.tpl ];then
   echo "Base folder not existing"
