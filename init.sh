@@ -2,10 +2,7 @@
 #Parse parameter
 #Print help if command wrong
 if [ ! $master ];then
-  echo "command like: master=3 ./init.sh"
-  echo "Script will create <master> master nodes"
-  echo "and <master> slave nodes"
-  exit 1
+  master=1
 fi
 if [ $master -lt 1 ];then
   echo "Script will create <master> master nodes"
